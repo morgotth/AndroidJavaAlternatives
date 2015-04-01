@@ -43,4 +43,6 @@ androidGroovy {
 dependencies {
     compile 'com.android.support:appcompat-v7:22.0.0'
     compile 'org.codehaus.groovy:groovy:2.4.1:grooid'
+
+    testCompile 'junit:junit:4.12'
 }
