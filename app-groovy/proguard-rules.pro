@@ -19,7 +19,9 @@
 -dontobfuscate
 -keep class org.codehaus.groovy.vmplugin.**
 -keep class org.codehaus.groovy.runtime.dgm*
+-keep class org.codehaus.groovy.reflection.**
 -keepclassmembers class org.codehaus.groovy.runtime.dgm* { *; }
 -keepclassmembers class ** implements org.codehaus.groovy.runtime.GeneratedClosure { *; }
+-keepclassmembers class org.codehaus.groovy.reflection.** { *; }
 -dontwarn org.codehaus.groovy.**
 -dontwarn groovy**
